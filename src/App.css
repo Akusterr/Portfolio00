@@ -1,0 +1,25 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+/* colormind.io */
+
+*, 
+*::after,
+*::before {
+    /* this makes the box not include extra size when adding "padding" */
+
+    box-sizing: border-box;
+}
+
+:root {
+    --light-shades: B5A9AB;
+    --main-brand: 876D81;
+    --dark-accent: 642F44;
+    --dark-shades: 1D0E24;
+
+}
