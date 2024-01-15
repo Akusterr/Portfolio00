@@ -17,9 +17,12 @@ p {
 }
 
 :root {
-    --light-shades: B5A9AB;
-    --main-brand: 876D81;
-    --dark-accent: 642F44;
-    --dark-shades: 1D0E24;
+    --page-padding: 1.2rem 10rem;
+
+    /* COLORS */
+    --light-shades: #B5A9AB;
+    --main-brand: #876D81;
+    --dark-accent: #642F44;
+    --dark-shades: #1D0E24;
 
 }

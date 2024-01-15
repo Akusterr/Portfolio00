@@ -6,11 +6,11 @@ function Navbar() {
     <div className='navbar-container'>
       <div className='navbar-name'>Alexa Kuster</div>
       <div className='navbar-links-container'>
-        <a>Home</a>
-        <a>About</a>
-        <a>Technologies</a>
-        <a>Portfolio</a>
-        <a>Contact</a>
+        <a href='#home'>Home</a>
+        <a href='#about'>About</a>
+        <a href='#technologies'>Technologies</a>
+        <a href='#portfolio'>Portfolio</a>
+        <a href='#contact'>Contact</a>
       </div>
     </div>
   )

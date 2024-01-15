@@ -3,4 +3,26 @@
     display: flex;
     justify-content: space-between;
     padding: var(--page-padding);
+    background-color: var(--main-brand);
+    color: var(--light-shades);
+    font-size: 1.2 rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.navbar-links-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-links-container a {
+    color: var(--light-shades);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-links-container a:hover {
+    color: var(--dark-shades);
+    transform: translateY(-5px);
 }
