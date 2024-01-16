@@ -26,3 +26,9 @@
     color: var(--dark-shades);
     transform: translateY(-5px);
 }
+
+.navbar-container img {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
