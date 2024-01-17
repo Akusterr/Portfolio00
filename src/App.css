@@ -18,6 +18,7 @@ p {
 
 :root {
     --page-padding: 1.2rem 10rem;
+    --gap: 1rem;
 
     /* COLORS */
     --light-shades: #B5A9AB;
@@ -25,4 +26,18 @@ p {
     --dark-accent: #642F44;
     --dark-shades: #1D0E24;
 
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --page-padding: 1rem 2rem;
+    }
+    .navbar-container {
+        flex-direction: column;
+        gap: var(--gap)
+    }
+
+    .navbar-links-container {
+        flex-direction: column;
+    }
 }
