@@ -1,12 +1,14 @@
 import './App.css';
-import { Navbar } from './screens';
+import { Navbar, Landing } from './screens';
 
 //https://www.favicon-generator.org/
+// svgrepo.com/svg
 
 function App() {
   return (
     <div>
       <Navbar />
+      <Landing />
     </div>
   );
 }
