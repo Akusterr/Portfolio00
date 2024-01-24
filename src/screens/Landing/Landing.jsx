@@ -5,7 +5,7 @@ import "./Landing.css";
 function Landing() {
   return (
     <AnimatedBackground >
-        hello
+
     </AnimatedBackground>
   )
 }

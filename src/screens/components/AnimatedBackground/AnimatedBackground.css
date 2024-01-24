@@ -1,4 +1,34 @@
-.animated-container {
-    background-color: red;
-    padding: 2rem;
+.animated-section {
+    background-color: var(--dark-shades);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.animated-section .animated-row {
+    position: relative;
+    top: -60%;
+    left: -5%;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+    transform: rotate(-30deg);
+
+}
+
+.animated-section svg {
+    width: 150px;
+    height: 150px;
+    fill: rgba(0, 0, 0, 0.1);
+    transition: 0.2;
+    margin: 0 5px;
+}
+
+.animated-section svg:hover {
+    fill: var(--main-brand);
+    filter: drop-shadow(0 0 15px var(--main-brand))
 }
