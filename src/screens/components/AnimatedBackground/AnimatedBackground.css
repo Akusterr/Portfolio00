@@ -32,3 +32,32 @@
     fill: var(--main-brand);
     filter: drop-shadow(0 0 15px var(--main-brand))
 }
+
+.animated-section .animated-row div {
+    animation: animate 80s linear infinite;
+    animation-delay: -80s;
+}
+
+.animated-section .animated-row div:nth-child(2) {
+    animation: animate2 80s linear infinite;
+    animation-delay: -40s;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateX(100%)
+    }
+    100% {
+        transform: translateX(-100%)
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateX(0%)
+    }
+
+    100% {
+        transform: translateX(-200%)
+    }
+}
