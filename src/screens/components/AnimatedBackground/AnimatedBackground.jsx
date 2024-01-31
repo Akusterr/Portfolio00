@@ -21,7 +21,7 @@ import "./AnimatedBackground.css";
 
 function AnimatedBackground( {children}) {
   let arr = [];
-  let qty = 10;
+  let qty = 15;
 
   for (let i = 0; i < qty; i++) {
     arr.push(i)
@@ -31,7 +31,6 @@ function AnimatedBackground( {children}) {
     <div key={i} className="animated-row">
       <div>
         <Innotation />
-        <Lotus />
         <Github2 />
         <Code3 />
         <Java1 />
@@ -39,19 +38,16 @@ function AnimatedBackground( {children}) {
         <DataCode />
         <Data1 />
         <Download1 />
-        <Automation />
         <Code1 />
         <Program />
-        <Memo />
+        <Lotus />
         <Debug />
         <RectangleCode />
-        <Software />
         <FingerClick />
       </div>
 
       <div>
         <Innotation />
-        <Lotus />
         <Github2 />
         <Code3 />
         <Java1 />
@@ -59,13 +55,11 @@ function AnimatedBackground( {children}) {
         <DataCode />
         <Data1 />
         <Download1 />
-        <Automation />
         <Code1 />
         <Program />
-        <Memo />
+        <Lotus />
         <Debug />
         <RectangleCode />
-        <Software />
         <FingerClick />
       </div>
     </div>
