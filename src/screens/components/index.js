@@ -1,2 +1,5 @@
 import AnimatedBackground from "./AnimatedBackground/AnimatedBackground";
-export { AnimatedBackground };
+import Typewriter from "./Typewriter/Typewriter";
+
+
+export { AnimatedBackground, Typewriter };

@@ -19,6 +19,8 @@ p {
 :root {
     --page-padding: 1.2rem 10rem;
     --gap: 1rem;
+    --padding: 1.2rem;
+    --border-radius: 5px;
 
     /* COLORS */
     --light-shades: #bdb4bd;
