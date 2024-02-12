@@ -2,7 +2,7 @@ import { Typewriter, AnimatedBackground } from "../components";
 import "./Landing.css";
 
 let msgArray = [
-  "",
+  // "",
   "A Software Engineer",
   "Web Developer",
   "Full Stack Developer",
