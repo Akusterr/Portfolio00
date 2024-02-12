@@ -1,11 +1,18 @@
 import { useEffect } from 'react';
 import "./Typewriter.css";
 
-function Typewriter({ data = [], TypeSpeed = 100, MsgDelay = 2000 }) {
+/**
+ * 
+ * @param {Array} data - Array[]: Array of strings to be typed
+ * @param {number} typeSpeed - Number: speed of typing in milliseconds
+ * @param {number} msgDelay - Number: delay between each message in milliseconds
+ */
+
+function Typewriter({ data = [], typeSpeed = 100, msgDelay = 2000 }) {
     useEffect(() => {
-        let CharacterPos = 0;
-        let MsgBuffer = "";
-        let MsgIndex = 0;
+        let characterPos = 0;
+        let msgBuffer = "";
+        let msgIndex = 0;
         let delay;
 
         function StartTyping() {
@@ -17,22 +24,22 @@ function Typewriter({ data = [], TypeSpeed = 100, MsgDelay = 2000 }) {
               //   "Full Stack Developer",
               //   "",
               // ]
-            if (CharacterPos !== data[MsgIndex].length) {
-              MsgBuffer = MsgBuffer + data[MsgIndex].charAt(CharacterPos);
-              id.value = MsgBuffer + "_";
-              delay = TypeSpeed;
+            if (characterPos !== data[msgIndex].length) {
+              msgBuffer = msgBuffer + data[msgIndex].charAt(characterPos);
+              id.value = msgBuffer + "_";
+              delay = typeSpeed;
 
             } else {
-              delay = MsgDelay;
-              MsgBuffer = "";
-              CharacterPos = -1;
-                if (MsgIndex !== data.length -1) {
-                MsgIndex++;
+              delay = msgDelay;
+              msgBuffer = "";
+              characterPos = -1;
+                if (msgIndex !== data.length -1) {
+                msgIndex++;
                 } else {
-                MsgIndex = 0;
+                msgIndex = 0;
                 }
             }
-            CharacterPos++;
+            characterPos++;
             setTimeout(StartTyping, delay);
         }
 
