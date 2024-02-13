@@ -1,5 +1,5 @@
 import './App.css';
-import { Navbar, Landing } from './screens';
+import { AboutMe, Navbar, Landing } from './screens';
 
 //https://www.favicon-generator.org/
 // svgrepo.com/svg
@@ -9,6 +9,7 @@ function App() {
     <div>
       <Navbar />
       <Landing />
+      <AboutMe />
     </div>
   );
 }

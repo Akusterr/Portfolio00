@@ -8,7 +8,7 @@ import "./Typewriter.css";
  * @param {number} msgDelay - Number: delay between each message in milliseconds
  */
 
-function Typewriter({ data = [], typeSpeed = 100, msgDelay = 2000 }) {
+function Typewriter({ data = [], typeSpeed = 150, msgDelay = 2000 }) {
     useEffect(() => {
         let characterPos = 0;
         let msgBuffer = "";
