@@ -1,5 +1,5 @@
 import './App.css';
-import { AboutMe, Navbar, Landing, Technologies } from './screens';
+import { AboutMe, Navbar, Landing, Technologies, Portfolio } from './screens';
 
 //https://www.favicon-generator.org/
 // svgrepo.com/svg
@@ -11,6 +11,7 @@ function App() {
       <Landing />
       <AboutMe />
       <Technologies />
+      <Portfolio />
     </div>
   );
 }
